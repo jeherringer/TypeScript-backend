@@ -6,7 +6,7 @@ var uri = "mongodb+srv://JonHerringer:Xxtgwsmztsb@helpfulhumandb.1bm9h.mongodb.n
 
 let database: Mongoose.Connection;
 export const connect = () => {
-  const uri = "mongodb+srv://JonHerringer:Xxtgwsmztsb@helpfulhumandb.1bm9h.mongodb.net/<colorDatabase>?retryWrites=true&w=majority";
+  const uri = "<ENTER YOUR URI CONNECTION HERE";
   if (database) {
     return;
   }
