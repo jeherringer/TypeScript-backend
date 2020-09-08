@@ -2,7 +2,7 @@ import * as Mongoose from "mongoose";
 import { ColorModel } from "./database/color.model";
 
 var MongoClient = require('mongodb').MongoClient;
-var uri = "mongodb+srv://JonHerringer:Xxtgwsmztsb@helpfulhumandb.1bm9h.mongodb.net/<colorDatabase>?retryWrites=true&w=majority";
+var uri = "MOVE THIS TO .ENV FILE AND CALL IT HERE";
 
 let database: Mongoose.Connection;
 export const connect = () => {
